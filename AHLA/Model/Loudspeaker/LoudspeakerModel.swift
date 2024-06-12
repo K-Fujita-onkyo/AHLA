@@ -3,7 +3,9 @@
 ///Project name: AdHocLoudspeakerArray
 /// Class name: LoudspeakerModel
 /// Creator: Kazuki Fujita
-/// Update: 2023/11/23 (Thu)
+/// Created at: 2023/11/27
+/// Updated at: 2024/06/08
+///
 ///
 /// ---Explanation---
 /// Loudspeaker model
@@ -135,10 +137,6 @@ class LoudspeakerModel: AdHocModel, ObservableObject {
             return
         }
         
-        //        if let loudAudioInfo = self.convertDataToInstance(type: LoudAudioInfoMessage.self, data: data) {
-        //            return
-        //        }
-        
         if let audioLocationInfo = self.convertDataToInstance(type: AudioLocationInfoMessage.self, data: data){
             self.audioLocation = audioLocationInfo.location
             self.debugText = "audioLocationInfo"
@@ -203,23 +201,23 @@ class LoudspeakerModel: AdHocModel, ObservableObject {
     }
     
     func spatializeAudioInRealTime(){
-//        let start = DispatchTime.now()
+        let start = DispatchTime.now()
         if self.audioQueue.isEmpty {
             return
         }
 
-//        self.sumNanoSecond -= 500_000
-//        if self.testBool == false {
-//            if self.sumNanoSecond <= self.nanoSecondOf1Sample * 3 {
-//                self.testBool = true
-//            } else {
-//                return
-//            }
-//        }
-//        if self.sumNanoSecond > self.nanoSecondOf1Sample * 3 {
-//            self.testBool = false
-//            return
-//        }
+        self.sumNanoSecond -= 500_000
+        if self.testBool == false {
+            if self.sumNanoSecond <= self.nanoSecondOf1Sample * 3 {
+                self.testBool = true
+            } else {
+                return
+            }
+        }
+        if self.sumNanoSecond > self.nanoSecondOf1Sample * 3 {
+            self.testBool = false
+            return
+        }
         
         let audioInfo = self.audioQueue.removeFirst()
         
@@ -234,8 +232,8 @@ class LoudspeakerModel: AdHocModel, ObservableObject {
         self.playAudioFromFloatArray(floatArray: audioPath)
         self.test+=1
         
-//        let end = DispatchTime.now()
-//        self.sumNanoSecond += self.nanoSecondOf1Sample - Double(end.uptimeNanoseconds - start.uptimeNanoseconds)
+        let end = DispatchTime.now()
+        self.sumNanoSecond += self.nanoSecondOf1Sample - Double(end.uptimeNanoseconds - start.uptimeNanoseconds)
     }
     
     func applyLoudness(value: Float){

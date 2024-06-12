@@ -1,9 +1,10 @@
 ///
 ///
 ///Project name: AdHocLoudspeakerArray
-/// Class name: LoudspeakerInformationsDictionary
+/// Class name: LoudspeakerInfoDictionary
 /// Creator: Kazuki Fujita
-/// Update: 2023/11/27 (Mon)
+/// Created at: 2023/11/27
+/// Updated at: 2024/05/25
 ///
 /// ---Explanation---
 /// Loudspeaker Informations Dictionary

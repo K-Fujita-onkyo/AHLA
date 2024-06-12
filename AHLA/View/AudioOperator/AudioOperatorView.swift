@@ -1,9 +1,10 @@
 ///
 ///
 ///Project name: AdHocLoudspeakerArray
-/// Class name: SoundOperatorView
+/// Class name: AudioOperatorView
 /// Creator: Kazuki Fujita
-/// Update: 2023/11/27 (Mon)
+/// Created at: 2023/11/27
+/// Updated at: 2024/05/25
 ///
 /// ---Explanation---
 /// Sound operator view
@@ -181,7 +182,7 @@ struct AudioOperatorView: View {
                         
                         Button(action: {
                             self.soundOpelatorModel.initAudioBuffer()
-                            self.soundOpelatorModel.sendLoudAudioInfoMessage()
+                            self.soundOpelatorModel.sendAudioInfoMessage()
                         }) {
                             Text("Audio")
                         }.buttonStyle(RoundedCornersButtonStyle())

@@ -24,6 +24,9 @@
 		BF75CCFF2C19CC9500F417E3 /* ArrowShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75CCFC2C19CC9500F417E3 /* ArrowShape.swift */; };
 		BF75CD002C19CC9500F417E3 /* ConvexHullShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75CCFD2C19CC9500F417E3 /* ConvexHullShape.swift */; };
 		BF75CD022C19DD0000F417E3 /* white.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF75CD012C19DD0000F417E3 /* white.wav */; };
+		BF75CD052C19E29E00F417E3 /* LoudnessTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75CD032C19E29E00F417E3 /* LoudnessTestView.swift */; };
+		BF75CD082C19E2A600F417E3 /* LoudnessTestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75CD062C19E2A600F417E3 /* LoudnessTestModel.swift */; };
+		BF75CD0A2C19E2B400F417E3 /* splTest.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF75CD092C19E2B400F417E3 /* splTest.wav */; };
 		BF8BB37E2C188A18004CE953 /* ColumnStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8BB37D2C188A18004CE953 /* ColumnStyle.swift */; };
 		BF8BB3802C188BA7004CE953 /* RoundedCornersButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8BB37F2C188BA7004CE953 /* RoundedCornersButtonStyle.swift */; };
 		BF8BB3832C188CA4004CE953 /* AdHocModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8BB3822C188CA4004CE953 /* AdHocModel.swift */; };
@@ -32,7 +35,6 @@
 		BFAA1ED62C192128001CAD4E /* AudioInfoMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAA1ED02C192127001CAD4E /* AudioInfoMessage.swift */; };
 		BFAA1ED72C192128001CAD4E /* InnerRoomInfoMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAA1ED12C192127001CAD4E /* InnerRoomInfoMessage.swift */; };
 		BFAA1ED82C192128001CAD4E /* AudioLocationInfoMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAA1ED22C192128001CAD4E /* AudioLocationInfoMessage.swift */; };
-		BFAA1ED92C192128001CAD4E /* LoudAudioInfoMessagge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAA1ED32C192128001CAD4E /* LoudAudioInfoMessagge.swift */; };
 		BFAA1EDA2C192128001CAD4E /* OuterRoomInfoMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAA1ED42C192128001CAD4E /* OuterRoomInfoMessage.swift */; };
 		BFAA1EDD2C192216001CAD4E /* AudioInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAA1EDB2C192216001CAD4E /* AudioInfoModel.swift */; };
 		BFAA1EDE2C192216001CAD4E /* AudioStreamerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAA1EDC2C192216001CAD4E /* AudioStreamerModel.swift */; };
@@ -60,6 +62,9 @@
 		BF75CCFC2C19CC9500F417E3 /* ArrowShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrowShape.swift; sourceTree = "<group>"; };
 		BF75CCFD2C19CC9500F417E3 /* ConvexHullShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvexHullShape.swift; sourceTree = "<group>"; };
 		BF75CD012C19DD0000F417E3 /* white.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = white.wav; sourceTree = "<group>"; };
+		BF75CD032C19E29E00F417E3 /* LoudnessTestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoudnessTestView.swift; sourceTree = "<group>"; };
+		BF75CD062C19E2A600F417E3 /* LoudnessTestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoudnessTestModel.swift; sourceTree = "<group>"; };
+		BF75CD092C19E2B400F417E3 /* splTest.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = splTest.wav; path = "../../../AdHocLoudspeakerArray/AdHocLoudspeakerArray/Preview Content/splTest.wav"; sourceTree = "<group>"; };
 		BF8BB37D2C188A18004CE953 /* ColumnStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnStyle.swift; sourceTree = "<group>"; };
 		BF8BB37F2C188BA7004CE953 /* RoundedCornersButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornersButtonStyle.swift; sourceTree = "<group>"; };
 		BF8BB3822C188CA4004CE953 /* AdHocModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdHocModel.swift; sourceTree = "<group>"; };
@@ -69,7 +74,6 @@
 		BFAA1ED02C192127001CAD4E /* AudioInfoMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioInfoMessage.swift; sourceTree = "<group>"; };
 		BFAA1ED12C192127001CAD4E /* InnerRoomInfoMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnerRoomInfoMessage.swift; sourceTree = "<group>"; };
 		BFAA1ED22C192128001CAD4E /* AudioLocationInfoMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioLocationInfoMessage.swift; sourceTree = "<group>"; };
-		BFAA1ED32C192128001CAD4E /* LoudAudioInfoMessagge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoudAudioInfoMessagge.swift; sourceTree = "<group>"; };
 		BFAA1ED42C192128001CAD4E /* OuterRoomInfoMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OuterRoomInfoMessage.swift; sourceTree = "<group>"; };
 		BFAA1EDB2C192216001CAD4E /* AudioInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioInfoModel.swift; sourceTree = "<group>"; };
 		BFAA1EDC2C192216001CAD4E /* AudioStreamerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioStreamerModel.swift; sourceTree = "<group>"; };
@@ -123,6 +127,7 @@
 			children = (
 				BF75CD012C19DD0000F417E3 /* white.wav */,
 				BF6D97142C18851A0089C8E8 /* Preview Assets.xcassets */,
+				BF75CD092C19E2B400F417E3 /* splTest.wav */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 		BF6D971D2C1886CC0089C8E8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BF75CD042C19E29E00F417E3 /* LoudnessTest */,
 				BF75CCF82C19CC1200F417E3 /* AudioOperator */,
 				BF75CCF32C19CC0A00F417E3 /* Loudspeaker */,
 				BF75CCFE2C19CC9500F417E3 /* Shape */,
@@ -202,9 +208,26 @@
 			path = Shape;
 			sourceTree = "<group>";
 		};
+		BF75CD042C19E29E00F417E3 /* LoudnessTest */ = {
+			isa = PBXGroup;
+			children = (
+				BF75CD032C19E29E00F417E3 /* LoudnessTestView.swift */,
+			);
+			path = LoudnessTest;
+			sourceTree = "<group>";
+		};
+		BF75CD072C19E2A600F417E3 /* LoudnessTest */ = {
+			isa = PBXGroup;
+			children = (
+				BF75CD062C19E2A600F417E3 /* LoudnessTestModel.swift */,
+			);
+			path = LoudnessTest;
+			sourceTree = "<group>";
+		};
 		BF8BB3812C188C96004CE953 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BF75CD072C19E2A600F417E3 /* LoudnessTest */,
 				BF75CCF02C19B8CD00F417E3 /* OuterRoom */,
 				BFAA1EE62C192350001CAD4E /* ConvexHull */,
 				BFAA1EE22C192265001CAD4E /* Algorithm */,
@@ -232,7 +255,6 @@
 				BFAA1ED02C192127001CAD4E /* AudioInfoMessage.swift */,
 				BFAA1ED22C192128001CAD4E /* AudioLocationInfoMessage.swift */,
 				BFAA1ED12C192127001CAD4E /* InnerRoomInfoMessage.swift */,
-				BFAA1ED32C192128001CAD4E /* LoudAudioInfoMessagge.swift */,
 				BFAA1ECF2C192127001CAD4E /* LoudspeakerInfoMessage.swift */,
 				BFAA1ED42C192128001CAD4E /* OuterRoomInfoMessage.swift */,
 			);
@@ -325,6 +347,7 @@
 			files = (
 				BF6D97152C18851A0089C8E8 /* Preview Assets.xcassets in Resources */,
 				BF6D97122C18851A0089C8E8 /* Assets.xcassets in Resources */,
+				BF75CD0A2C19E2B400F417E3 /* splTest.wav in Resources */,
 				BF75CD022C19DD0000F417E3 /* white.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,9 +359,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFAA1ED92C192128001CAD4E /* LoudAudioInfoMessagge.swift in Sources */,
 				BF75CD002C19CC9500F417E3 /* ConvexHullShape.swift in Sources */,
 				BFAA1EE32C192265001CAD4E /* QueueModel.swift in Sources */,
+				BF75CD082C19E2A600F417E3 /* LoudnessTestModel.swift in Sources */,
 				BF6D97102C1885170089C8E8 /* TopView.swift in Sources */,
 				BFAA1EDD2C192216001CAD4E /* AudioInfoModel.swift in Sources */,
 				BFAA1ED72C192128001CAD4E /* InnerRoomInfoMessage.swift in Sources */,
@@ -355,6 +378,7 @@
 				BFAA1ED62C192128001CAD4E /* AudioInfoMessage.swift in Sources */,
 				BF6D97242C1889E30089C8E8 /* ColumnListStyle.swift in Sources */,
 				BF75CCFA2C19CC1200F417E3 /* SideMenuView.swift in Sources */,
+				BF75CD052C19E29E00F417E3 /* LoudnessTestView.swift in Sources */,
 				BFAA1EDE2C192216001CAD4E /* AudioStreamerModel.swift in Sources */,
 				BFAA1EE72C192350001CAD4E /* ConvexHullInfoModel.swift in Sources */,
 				BFAA1EE42C192265001CAD4E /* StackModel.swift in Sources */,

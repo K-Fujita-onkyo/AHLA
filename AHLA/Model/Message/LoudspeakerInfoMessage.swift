@@ -1,9 +1,11 @@
 ///
 ///
 ///Project name: AdHocLoudspeakerArray
-/// Class name: LoudspeakerInfoMessageModel
+/// Class name: LoudspeakerInfoMessage
 /// Creator: Kazuki Fujita
-/// Update: 2023/11/23 (Thu)
+/// Created at: 2023/11/27
+/// Updated at: 2024/05/25
+///
 ///
 /// ---Explanation---
 /// Loudspeaker model

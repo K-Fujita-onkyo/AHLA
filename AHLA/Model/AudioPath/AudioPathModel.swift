@@ -3,7 +3,9 @@
 ///Project name: AdHocLoudspeakerArray
 /// Class name: AudioPathModel
 /// Creator: Kazuki Fujita
-/// Update: 2023/11/23 (Thu)
+/// Created at: 2023/12/27
+/// Updated at: 2024/05/29
+///
 ///
 /// ---Explanation---
 /// AudioPathModel

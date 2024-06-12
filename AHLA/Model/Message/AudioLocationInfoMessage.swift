@@ -1,9 +1,11 @@
-//
-//  AudioLocationInfoMessage.swift
-//  AdHocLoudspeakerArray
-//
-//  Created by 藤田一旗 on 2023/12/31.
-//
+///
+///
+///Project name: AdHocLoudspeakerArray
+/// Class name: AudioLocationInfoMessage
+/// Creator: Kazuki Fujita
+/// Created at: 2023/11/27
+/// Updated at: 2024/05/25
+///
 
 import Foundation
 import simd

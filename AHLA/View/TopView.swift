@@ -52,7 +52,7 @@ struct TopView: View {
             }) {
                 ColumnListStyle(column: columnList[2])
             }.sheet(isPresented: self.$showMesuringSPLView) {
-//                LoudnessTestView()
+                LoudnessTestView()
             }.buttonStyle(RoundedCornersButtonStyle())
         }
         .padding()

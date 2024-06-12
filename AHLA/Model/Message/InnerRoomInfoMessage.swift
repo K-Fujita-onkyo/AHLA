@@ -1,9 +1,11 @@
-//
-//  InnerRoomInfoMessage.swift
-//  AdHocLoudspeakerArray
-//
-//  Created by 藤田一旗 on 2023/12/05.
-//
+///
+///
+///Project name: AdHocLoudspeakerArray
+/// Class name: InnerRoomInfoMessage
+/// Creator: Kazuki Fujita
+/// Created at: 2023/11/27
+/// Updated at: 2024/05/25
+///
 
 import Foundation
 import simd

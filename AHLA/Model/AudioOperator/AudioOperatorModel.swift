@@ -131,21 +131,7 @@ class AudioOperatorModel: AdHocModel, ObservableObject {
             }
         }
     }
-    
-    @objc func sendLoudAudioInfoMessage(){
-
-        if self.loudspeakerMCPeerIDs.isEmpty {
-            return
-        }
         
-        let loudAudioInfoMessage: LoudAudioInfoMessage = LoudAudioInfoMessage(loudAudioBool: true)
-        if let data: Data  = self.convertInstanceToData(instance: loudAudioInfoMessage){
-            self.sendData(data: data, mcPeerIDs: loudspeakerMCPeerIDs)
-        }
-        
-    }
-    
-    
     @objc func sendAudioLocationInfoMessage(){
         
         if self.loudspeakerMCPeerIDs.isEmpty {

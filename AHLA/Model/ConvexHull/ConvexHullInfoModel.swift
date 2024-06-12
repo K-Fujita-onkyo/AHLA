@@ -1,7 +1,7 @@
 ///
 ///
 ///Project name: AdHocLoudspeakerArray
-/// Class name: OuterRoomInfoModel
+/// Class name: ConvexHullInfoModel
 /// Creator: Kazuki Fujita
 /// Created at: 2023/11/27
 /// Updated at: 2024/05/28
