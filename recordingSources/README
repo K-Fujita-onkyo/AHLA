@@ -1,5 +1,8 @@
 # Recording File.
 
+"RecordingStyle"_Azimuth_"Angle".wav
+
+## RecordingStyle meaning
 "Control" means that the audio was recorded directly from a designated location with a single phone.
 "SpS+AuS" means that the loudspeaker and audio source positions were recorded stationary.
 "SpM+AuS" means that the audio source position is recorded stationary, but the loudspeaker is moving in a circular motion.
